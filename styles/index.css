@@ -1,0 +1,69 @@
+body{
+    width: 768px;
+    height: 1024px;
+    background-color: lightgray;
+}
+.screen{
+    position: absolute;
+    width: 954px;
+    height: 794px;
+    left: 243px;
+    top: 153px;
+    background: #BE0909;
+}
+.screen2{
+    position: absolute;
+    width: 345px;
+    height: 794px;
+    left: 609px;
+    background: #FFB039;
+}
+.foto{
+    position: absolute;
+    top: 172px;
+    left: 350px;
+    bottom: 100px;
+}
+.label{
+    position: relative;
+    left: 65px;
+    top: 64px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
+}
+.input-field{
+    border-bottom-color: #9DBEBB;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #BE0909;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    letter-spacing: 0.3em;
+    color: #FDFFFF;
+    margin-top: 100px;
+    margin-left: 75px;
+    cursor: pointer;
+}
+.send-btn{
+    position: absolute;
+    width: 202px;
+    height: 48px;
+    top: 685px;
+    left: 207px;
+    border-radius: 40px;
+    background-color: #468189;
+    border: none;
+    cursor: pointer;
+}
